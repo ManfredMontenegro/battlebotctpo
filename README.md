@@ -4,9 +4,13 @@ Para nuestros Battlebots nos inspiramos en este vídeo: https://www.youtube.com/
 
 
 
-Prototipo 1
+Prototipo 1   
 
-ServoMotores del brazo 
+
+ServoMotores del brazo                                 
+
+
+![image](https://github.com/user-attachments/assets/ec689165-71c0-4844-a3e6-8425533db629)
 
 TowerPro SG-92R Micro Servo
 
@@ -26,6 +30,10 @@ Buje de teflón, cable de 19 cm, motor sin núcleo, brazos servo y tornillo incl
 
 
 
+
+
+
+![image](https://github.com/user-attachments/assets/3315614f-8bd6-4d78-8ea4-0aa9054c56a4)
 
         
 MG996R Continuous Rotation Metal Gear Servo
@@ -59,6 +67,7 @@ ServoMotores de las ruedas
 
 
 
+![image](https://github.com/user-attachments/assets/50bdac94-a11e-4fd4-bfad-4da76814e700)
 
 
 
@@ -85,6 +94,10 @@ CC reversible
 
 
 
+![image](https://github.com/user-attachments/assets/01155925-a228-4bae-82c7-e5e050c6d4ef)
+
+
+
 
 Ruedas
 
@@ -94,6 +107,10 @@ Ruedas
 Rueda de 70mm x 2
 
 
+
+
+
+![image](https://github.com/user-attachments/assets/be1d01f8-a430-4b58-9cb9-5af552666882)
 
 
 
