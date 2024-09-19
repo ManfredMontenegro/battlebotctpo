@@ -27,7 +27,7 @@ Buje de teflón, cable de 19 cm, motor sin núcleo, brazos servo y tornillo incl
 
 
 
-
+        
 MG996R Continuous Rotation Metal Gear Servo
 
 
