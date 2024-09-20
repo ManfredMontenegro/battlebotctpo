@@ -123,20 +123,4 @@ El IdeaBoard es un tablero educativo de desarrollo de Robótica e Internet de la
 
 Caracteristicas
 
-ESP32-WROOM-32E microcontroller
-        ◦ 32bits @ 240MHz
-        ◦ 3.3V logic
-        ◦ 520KB SRAM
-        ◦ 8MB FLASH
-        ◦ WIFI 802.11b/g/n
-        ◦ Bluetooth V4.2 BR/EDR y Bluetooth LE
-    • Dual H-Bridges for motor control (800mA for each motor)
-    • Multi-color programmable RGB LED (WS2812B)
-    • Programmable using CircuitPython/Micropython or the Arduino IDE (C/C++)
-    • USB-C interface for programming and debugging (CH340G serial converter)
-    • Standard .1" headers for convenient interfacing with GND and Vcc for each pin
-    • STEMMA/QWIIC 4-pin interface for easy connections to Adafruit and Sparkfun i2c modules
-    • Direct DC power for battery or power supply (5VDC - 9VDC)
-    • 7 pins for servos or other applications that require direct power
-    • 14 General Purpose I/O pins in total (7 direct power -- 7 with 3.3v logic)
-
+Microcontrolador ESP32-WROOM-32E ◦ 32bits @ 240MHz ◦ Lógica 3.3V ◦ 520KB SRAM ◦ 8MB FLASH ◦ WIFI 802.11b/g/n ◦ Bluetooth V4.2 BR/EDR y Bluetooth LE • Puentes H duales para control de motores (800mA para cada motor) • LED RGB programable multicolor (WS2812B) • Programable usando CircuitPython/Micropython o Arduino IDE (C/C++) • Interfaz USB-C para programación y depuración (convertidor serie CH340G) • Conectores estándar de 0,1" para una mayor comodidad interfaz con GND y Vcc para cada pin • Interfaz STEMMA/QWIIC de 4 pines para conexiones fáciles a los módulos Adafruit y Sparkfun i2c • Alimentación CC directa para batería o fuente de alimentación (5 VCC - 9 VCC) • 7 pines para servos u otras aplicaciones que requieren conexión directa alimentación • 14 pines de E/S de uso general en total (7 de alimentación directa, 7 con lógica de 3,3 V)
