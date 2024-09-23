@@ -128,6 +128,13 @@ Microcontrolador ESP32-WROOM-32E ◦ 32bits @ 240MHz ◦ Lógica 3.3V ◦ 520KB 
 
 
 
+
+
+
+
+
+
+
 Competencia Battlebot   
 
 
