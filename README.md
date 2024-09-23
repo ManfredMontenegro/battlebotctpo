@@ -124,3 +124,85 @@ El IdeaBoard es un tablero educativo de desarrollo de Robótica e Internet de la
 Caracteristicas
 
 Microcontrolador ESP32-WROOM-32E ◦ 32bits @ 240MHz ◦ Lógica 3.3V ◦ 520KB SRAM ◦ 8MB FLASH ◦ WIFI 802.11b/g/n ◦ Bluetooth V4.2 BR/EDR y Bluetooth LE • Puentes H duales para control de motores (800mA para cada motor) • LED RGB programable multicolor (WS2812B) • Programable usando CircuitPython/Micropython o Arduino IDE (C/C++) • Interfaz USB-C para programación y depuración (convertidor serie CH340G) • Conectores estándar de 0,1" para una mayor comodidad interfaz con GND y Vcc para cada pin • Interfaz STEMMA/QWIIC de 4 pines para conexiones fáciles a los módulos Adafruit y Sparkfun i2c • Alimentación CC directa para batería o fuente de alimentación (5 VCC - 9 VCC) • 7 pines para servos u otras aplicaciones que requieren conexión directa alimentación • 14 pines de E/S de uso general en total (7 de alimentación directa, 7 con lógica de 3,3 V)
+
+
+
+
+Competencia Battlebot   
+
+
+  
+
+Formato de Competición  
+
+El torneo Battlebot se estructura como un torneo por eliminatoria.  
+
+Dos Robots compiten en una “Jaula”. Es una pelea entre robots en donde se intentan quitar banderas. El que se quede sin banderas pierde  
+
+Se define una llave previa donde los equipos serán asignados al azar.  
+
+Los encuentros de dos robots los denominamos "Figth”  
+
+Cada Figth consiste de 3 Rounds (Rondas) de un minuto, con una pausa de medio minuto entre juegos, para ajustes o cambios de estrategia  
+
+La “Jaula” es un ring cuadrado de 2m x 2m , de fondo negro con Cedazo en la orilla. Esto es para que el robot no pueda salir antes de que termine el round   
+
+  
+
+Principios del juego   
+
+La mesa de arbitraje revisará el robot para determinar que sigue las especificaciones requeridas  
+
+Son tres "rounds" por figth , se gana de dos formas. Forma 1: Se quitan todas las banderas Forma 2: El que obtenga más puntos   
+
+Cada batalla tiene una duración máxima de 1:00 minuto  
+
+En caso de empate (no se hayan perdido banderas o quedaron igual), la mesa de arbitraje considerará ganador el robot con mayor número de ataques  
+
+Las 2 acciones de batalla son atacar y defender  
+
+La competencia es por eliminación, y van clasificando en pares hasta la final.  
+
+Se documentará la estrategia de los 2 mejores, así asegurando un nivel más alto cada año   
+
+  
+  
+Reglas del Juego   
+
+Un fiscal revisará cada robot para asegurarse de que cumple con las especificaciones requeridas. En caso de duda, será verificado por jueces.  
+
+Cada "Figth" consta de tres "rounds". El que quite una banderas obtendra puntos dependiendo del color de la misma. Bandera verde: 10 puntos Bandera amarilla: 5 puntos Bandera anaranjada: 3 puntos  
+
+Al iniciar la figth, los equipos deben esperar a que suene el silbato para comenzar el round   
+
+Un robot pierde si este pierde las 5 banderas, también si este mismo obtuvo un puntaje más bajo que el de su contrincante 
+
+Cada figth tiene una duración máxima de 1 minuto  
+
+La competencia inicia por grupos, y las siguientes rondas son por eliminación y los equipos avanzan en pares hasta la final.  
+
+Cada competidor puede elegir como como iniciar la figth, son tres posiciones posibles y cada una se hará en elección de los competidores. Posición 1: Cada uno en una esquina, Posición 2: Espalda con espalda 
+
+Posición 3: Uno en un lado y otro en otro lado del cuadrilátero   
+
+Entre cada combate se tiene 30 segundos para revisar el robot y hacer posibles cambios  
+
+En caso de que los robots pierdan la última bandera al mismo tiempo, se hará un round de 30 segundos con la bandera establecida por los jueces  
+
+Si en una partida no se presenta uno de los equipos, ganará el que se presentó (el equipó que se presentó avanzara a la siguiente fase)  
+
+Si un equipo llega tarde a la primera figth, puede seguir jugando los siguientes round, perdiendo el primer round y rebajándoseles una de las banderas amarillas  
+
+Los equipos tendrán varios lugares donde colocar las banderas establecidos en la base   
+
+En caso del robot quedar prensado con el ¨ring¨ se daran 5 segundos para que logre liberarse, de no ser posible se reacomodaran frente a frente en medio del ¨ring¨  
+
+En caso de que el robot quede prensado y no se suelte solo, se le restara un punto por el conteo  
+
+  
+
+  
+
+  
+
+  
