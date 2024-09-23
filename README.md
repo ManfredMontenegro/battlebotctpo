@@ -206,6 +206,12 @@ En caso del robot quedar prensado con el ¨ring¨ se daran 5 segundos para que l
 
 En caso de que el robot quede prensado y no se suelte solo, se le restara un punto por el conteo  
 
+El ataque tiene que ser ejecutado en un lapso de dos segundos, despues del lapso de 2 segundos su ataque contara como un ¨extend punch¨ 
+
+Si se ejecuta un ¨extend punch¨ y este bota una bandera, no contara la bandera botada y se reincorporara al robot que la perdio 
+
+Despues de propiciar al rival 3 ¨extend punch¨ se hara un rebajo de un punto 
+
   
 
   
