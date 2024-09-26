@@ -94,27 +94,12 @@ CC reversible
 
 
 
-![image](https://github.com/user-attachments/assets/01155925-a228-4bae-82c7-e5e050c6d4ef)
-
-
-
-
-Ruedas
-
-
-70mm Wheel 1 pair ( works with DG01D gearmotors) 
-
-Rueda de 70mm x 2
-
-
-
-
-
-![image](https://github.com/user-attachments/assets/be1d01f8-a430-4b58-9cb9-5af552666882)
-
 
 
 Board
+
+
+![image](https://github.com/user-attachments/assets/be1d01f8-a430-4b58-9cb9-5af552666882)
 
 
 
