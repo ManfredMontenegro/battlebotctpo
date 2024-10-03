@@ -5,6 +5,19 @@ Para nuestros Battlebots nos inspiramos en este vídeo: https://www.youtube.com/
 
 
 Prototipo 1   
+Lista de materiales 
+2 IdeaBoard 
+1 Neodymium Magnet Disk 5x3mm N35 
+1 Big Button
+2 Micro Gearmotor
+1 TowerPro SG-92R Micro Servo
+1 MG996R Continuous Rotation Metal Gear Servo
+1 Male to Female Jumper Wire (30 pcs )
+2 llantas 3d
+1 joystick
+1 3PI N20 ball caster
+2 Battery Holder - 4xAA
+
 
 
 ServoMotores del brazo                                 
@@ -123,6 +136,10 @@ Microcontrolador ESP32-WROOM-32E ◦ 32bits @ 240MHz ◦ Lógica 3.3V ◦ 520KB 
 Competencia Battlebot   
 
 
+Pasos para armar
+
+Como primer paso se pondrá la ideaBoard y la caja de baterías a la base, para después ponerle los Micro Gearmotor para ponerle las llantas, para seguir con la ball caster que iría al frente, siguiendo con los soportes y poniendo la tapa encima atornillándola para que quede sujeto, en las ranuras que tiene la tapa irá atornillado el brazo.
+
   
 
 Formato de Competición  
@@ -196,6 +213,13 @@ El ataque tiene que ser ejecutado en un lapso de dos segundos, despues del lapso
 Si se ejecuta un ¨extend punch¨ y este bota una bandera, no contara la bandera botada y se reincorporara al robot que la perdio 
 
 Despues de propiciar al rival 3 ¨extend punch¨ se hara un rebajo de un punto 
+
+Agradecimientos
+Universidad Cenfotec por darnos la oportunidad de hacer la pasantía 
+Gabriela Urbina Hernández y Tomás De Camino Beck por su colaboración en la elaboración del proyecto
+Ronald Fallas Rojas Profesor a cargo
+
+
 
   
 
