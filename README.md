@@ -5,17 +5,28 @@ Para nuestros Battlebots nos inspiramos en este vídeo: https://www.youtube.com/
 
 
 Prototipo 1   
-Lista de materiales 
-2 IdeaBoard 
-1 Neodymium Magnet Disk 5x3mm N35 
+Lista de materiales
+
+2 IdeaBoard
+
+1 Neodymium Magnet Disk 5x3mm N35
+
 1 Big Button
+
 2 Micro Gearmotor
+
 1 TowerPro SG-92R Micro Servo
+
 1 MG996R Continuous Rotation Metal Gear Servo
+
 1 Male to Female Jumper Wire (30 pcs )
+
 2 llantas 3d
+
 1 joystick
+
 1 3PI N20 ball caster
+
 2 Battery Holder - 4xAA
 
 
