@@ -226,6 +226,7 @@ Si se ejecuta un ¨extend punch¨ y este bota una bandera, no contara la bandera
 Despues de propiciar al rival 3 ¨extend punch¨ se hara un rebajo de un punto 
 
 Agradecimientos
+
 Universidad Cenfotec por darnos la oportunidad de hacer la pasantía
 
 Gabriela Urbina Hernández y Tomás De Camino Beck por su colaboración en la elaboración del proyecto
