@@ -165,7 +165,7 @@ Los encuentros de dos robots los denominamos "Figth”
 
 Cada Figth consiste de 3 Rounds (Rondas) de un minuto, con una pausa de medio minuto entre juegos, para ajustes o cambios de estrategia  
 
-La “Jaula” es un ring cuadrado de 2m x 2m , de fondo negro con Cedazo en la orilla. Esto es para que el robot no pueda salir antes de que termine el round   
+La “Jaula” es un ring cuadrado de 1.50m x 1.50m , de cualquier fondo con Cedazo en la orilla. Esto es para que el robot no pueda salir antes de que termine el round   
 
   
 
@@ -231,7 +231,7 @@ Universidad Cenfotec por darnos la oportunidad de hacer la pasantía
 
 Gabriela Urbina Hernández y Tomás De Camino Beck por su colaboración en la elaboración del proyecto
 
-Ronald Fallas Rojas Profesor a cargo
+Ronald Fallas Rojas Profesor a cargo, colaborador con diseño y codigo
 
 
 
