@@ -27,7 +27,7 @@ Lista de materiales
 
 1 3PI N20 ball caster
 
-2 Battery Holder - 4xAA
+3 Battery Holder - 4xAA
 
 
 
