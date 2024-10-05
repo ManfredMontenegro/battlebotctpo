@@ -146,7 +146,8 @@ Como primer paso se pondrá la ideaBoard y la caja de baterías a la base, para 
 
 
 
-Image 1
+https://cdn2.bigcommerce.com/server3700/64749/products/1691/images/5297/caster3__71467.1571954452.1280.1280.jpg?c=2
+
 
 
 
