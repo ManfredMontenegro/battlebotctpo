@@ -1,1 +1,97 @@
+import board
+import analogio
+import time
+from ideaboard import IdeaBoard
+import espnow
+
+
+e = espnow.ESPNow()
+peer = espnow.Peer(mac=b'd\xb7\x08hIt')
+e.peers.append(peer)
+
+
+# Inicialización de IdeaBoard
+ib = IdeaBoard()
+arm = ib.DigitalIn(board.IO4)
+
+
+x_axis_pin = analogio.AnalogIn(board.IO32)  # Cambia a un pin disponible
+y_axis_pin = analogio.AnalogIn(board.IO33)  # Cambia a un pin disponible
+
+# Lista de direcciones
+direction_list = ["Este", "Sudeste", "Sur", "Suroeste", "Oeste", "Noroeste", "Norte", "Noreste", "Centro", "Ataque"]
+
+#Envia un mensaje al otro Ideaboard usando el protocolo espnow
+def sendMsgRobot(msg):
+    e.send(msg)
+
+
+def get_zero(times=500, sleep=0.01):
+    x_total = 0
+    y_total = 0
+    for i in range(times):
+        x_axis = x_axis_pin.value
+        y_axis = y_axis_pin.value
+        x_total += x_axis
+        y_total += y_axis
+        time.sleep(sleep)
+    x_zero = x_total // times
+    y_zero = y_total // times
+    return (x_zero, y_zero)
+
+def get_direction(zero=(32767, 32767)):
+    
+    x_axis = x_axis_pin.value - zero[0]
+    y_axis = y_axis_pin.value - zero[1]
+    
+    # Ajusta los umbrales según sea necesario
+    threshold = 10000  # Ajusta este valor si no se detectan bien las direcciones
+    
+    if arm.value == 1:
+        sendMsgRobot(direction_list[9])
+
+    if x_axis > threshold and -threshold < y_axis < threshold:
+        sendMsgRobot(direction_list[0])
+        return direction_list[0]  # Este
+    elif x_axis > threshold and y_axis < -threshold:
+        sendMsgRobot(direction_list[1])
+        return direction_list[1]  # Sudeste
+    elif -threshold < x_axis < threshold and y_axis < -threshold:
+        sendMsgRobot(direction_list[2])
+        return direction_list[2]  # Sur
+    elif x_axis < -threshold and y_axis < -threshold:
+        sendMsgRobot(direction_list[3])
+        return direction_list[3]  # Suroeste
+    elif x_axis < -threshold and -threshold < y_axis < threshold:
+        sendMsgRobot(direction_list[4])
+        return direction_list[4]  # Oeste
+    elif x_axis < -threshold and y_axis > threshold:
+        sendMsgRobot(direction_list[5])
+        return direction_list[5]  # Noroeste
+    elif -threshold < x_axis < threshold and y_axis > threshold:
+        sendMsgRobot(direction_list[6])
+        return direction_list[6]  # Norte
+    elif x_axis > threshold and y_axis > threshold:
+        sendMsgRobot(direction_list[7])
+        return direction_list[7]  # Noreste
+    else:
+        sendMsgRobot(direction_list[8])
+        return direction_list[8]  # Centro
+
+
+def pruebaValores():
+    print("X4:", x_axis_pin.value, "Y4:", y_axis_pin.value)
+    time.sleep(1)
+
+zero = get_zero(times=50, sleep=0.01)
+print("Zero points:", zero)
+
+while True:
+    #pruebaValores()
+    x_axis = x_axis_pin.value - zero[0]
+    y_axis = y_axis_pin.value - zero[1]
+    print("X:", x_axis, "Y:", y_axis)
+    print("Dirección:", get_direction(zero=zero))
+    time.sleep(0.1)
+
 
