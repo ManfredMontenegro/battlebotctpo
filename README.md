@@ -139,17 +139,18 @@ Microcontrolador ESP32-WROOM-32E ◦ 32bits @ 240MHz ◦ Lógica 3.3V ◦ 520KB 
 
 
 
+Pasos para armar
+
+Como primer paso se pondrá la ideaBoard y la caja de baterías a la base, para después ponerle los Micro Gearmotor para ponerle las llantas, para seguir con la ball caster que iría al frente, siguiendo con los soportes y poniendo la tapa encima atornillándola para que quede sujeto, en las ranuras que tiene la tapa irá atornillado el brazo.
 
 
+
+
+Image 1
 
 
 
 Competencia Battlebot   
-
-
-Pasos para armar
-
-Como primer paso se pondrá la ideaBoard y la caja de baterías a la base, para después ponerle los Micro Gearmotor para ponerle las llantas, para seguir con la ball caster que iría al frente, siguiendo con los soportes y poniendo la tapa encima atornillándola para que quede sujeto, en las ranuras que tiene la tapa irá atornillado el brazo.
 
   
 
