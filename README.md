@@ -144,7 +144,7 @@ Pasos para armar
 Como primer paso se pondrá la ideaBoard y la caja de baterías a la base, para después ponerle los Micro Gearmotor para ponerle las llantas, para seguir con la ball caster que iría al frente, siguiendo con los soportes y poniendo la tapa encima atornillándola para que quede sujeto, en las ranuras que tiene la tapa irá atornillado el brazo.
 
 
-
+ Ball caster
 
 ![caster3__71467](https://github.com/user-attachments/assets/ef6d3415-acd5-4b28-a6e2-2d59266b7112)
 
@@ -157,7 +157,14 @@ Body Case Material: Plastic
 Ball Material: 304 Stainless Steel to ensure long-term use 
 
 
+Battery holder
 
+![Uploading 1437__45292.jpg…]()
+
+Caracteristicas
+
+
+Simple 4 Cell AA Battery holder with tinned leads.
 
 
 
