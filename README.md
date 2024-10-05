@@ -146,7 +146,18 @@ Como primer paso se pondrá la ideaBoard y la caja de baterías a la base, para 
 
 
 
-![image]https://cdn2.bigcommerce.com/server3700/64749/products/1691/images/5297/caster3__71467.1571954452.1280.1280.jpg?c=2
+![caster3__71467](https://github.com/user-attachments/assets/ef6d3415-acd5-4b28-a6e2-2d59266b7112)
+
+This ball caster wheel makes robots to walk or move at a more flexible and comfortable way, it consists of four small balls and a diameter of 12 mm large steel ball, suitable for smart car chassis supports and miniature robots.
+
+
+Caracteristicas
+This ball caster wheel makes robots to walk or move at a more flexible and comfortable way, it consists of four small balls and a diameter of 12 mm large steel ball, suitable for smart car chassis supports and miniature robots.
+Body Case Material: Plastic
+Ball Material: 304 Stainless Steel to ensure long-term use 
+
+
+
 
 
 
