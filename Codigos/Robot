@@ -1,1 +1,133 @@
+from ideaboard import IdeaBoard
+import espnow
+import board
+from time import sleep
+import pwmio
+from adafruit_motor import servo
+
+
+
+ib = IdeaBoard()
+e = espnow.ESPNow()
+packets = []
+speed = 1
+t = 0.1
+estaArriba = False
+
+
+servo1 = ib.Servo(board.IO4)
+
+# create a PWMOut object on Pin A2.
+pwm = pwmio.PWMOut(board.IO5, frequency=50)
+
+# Create a servo object.
+servo2 = servo.ContinuousServo(pwm)
+
+def stop():
+    # Detiene los motores
+    ib.pixel = (0, 0, 0)
+    ib.motor_1.throttle = 0
+    ib.motor_2.throttle = 0
+
+def giro90():
+    ib.motor_1.throttle = velocidadGiro * -1
+    ib.motor_2.throttle = velocidadGiro
+    sleep(g90)
+    stop()
+
+def ataqueInicio(sierra):
+    # Ataque inicial de 0
+    servo1.angle = 0
+    if sierra: 
+        servo2.throttle = 0
+    return 0  # Devuelve el estado de sierra
+
+def atacar(sierra):
+    # Ataque inicial S
+    servo1.angle = 90
+    if sierra:
+        servo2.throttle = 1
+    sleep(2)
+    return 1# Devuelve el estado de sierra
+
+def movimientoBrazo(sierra):
+    atacar(sierra)
+    ataqueInicio(sierra)
+    
+def adelante():
+    # Mueve el robot hacia adelante
+    # por tiempo t, a velocidad speed = [0,1]
+    ib.pixel = (0, 255, 0)
+    ib.motor_1.throttle = speed
+    ib.motor_2.throttle = speed
+    sleep(t)
+    
+def atras():
+    # Mueve el robot hacia atrás
+    # por tiempo t, a velocidad speed = [0,1]    
+    ib.pixel = (150, 255, 0)
+    ib.motor_1.throttle = -speed
+    ib.motor_2.throttle = -speed
+    sleep(t)
+    
+def izquierda():
+    # Mueve el robot hacia la izquierda
+    # por tiempo t, a velocidad speed = [0,1]    
+    ib.pixel = (50, 55, 100)
+    ib.motor_1.throttle = -speed
+    ib.motor_2.throttle = speed
+    sleep(t)
+    
+def derecha():
+    # Mueve el robot hacia la derecha
+    # por tiempo t, a velocidad speed = [0,1]    
+    ib.pixel = (50, 55, 100)
+    ib.motor_1.throttle = speed
+    ib.motor_2.throttle = -speeds
+    sleep(t)
+
+def stop():
+    # Detiene los motores
+    ib.pixel = (0, 0, 0)
+    ib.motor_1.throttle = 0
+    ib.motor_2.throttle = 0
+    
+while True:
+#     ["Este", "Sudeste", "Sur", "Suroeste", "Oeste", "Noroeste", "Norte", "Noreste", "Centro"]
+    if e: #evento recibido desde el control
+        mensaje = e.read()
+        direction = str(mensaje)
+        
+        print (mensaje)
+        
+        
+        if 'Norte' in direction:
+            adelante()
+        
+        elif 'Ataque' in direction:
+            movimientoBrazo(False) #se envía True cuando se pega el servo con la sierra y False si se pega el martillo
+            
+        elif 'Este' in direction:
+            derecha()
+            
+        elif 'Sudeste' in direction:
+            time.sleep(1)
+        
+        elif 'Sur' in direction:
+            atras()
+            
+        elif 'Suroeste' in direction:
+            time.sleep(1)
+            
+        elif 'Oeste' in direction:
+            izquierda()
+            
+        elif 'Noroeste' in direction:
+            time.sleep(1)
+            
+        elif 'Noreste' in direction:
+            time.sleep(1)
+            
+        else:
+             stop()
 
